@@ -1,0 +1,16 @@
+#include <stdio.h>
+//Iprimir o nome.
+void main(){
+    char vetName[10], vetLastName[10];
+
+    printf("\n\tDigite seu nome:\n");
+    scanf("%s",vetName);
+    system("clear");
+
+    printf("\n\tDigite seu sobrenome:\n");
+    scanf("%s",vetLastName);
+    system("clear");
+
+    printf("\n\n\tSeu nome completo é %s %s\n",vetName, vetLastName);
+
+}
